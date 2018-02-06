@@ -15,3 +15,10 @@ func main() {
 	}
 	fmt.Println(a)
 }
+
+func IterateOverASCIIStringLiteral(sl string) {
+
+}
+
+func ExtendedASCIIText() {
+}
