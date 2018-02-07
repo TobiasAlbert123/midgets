@@ -10,14 +10,15 @@ func main() {
 		IterateOverASCIIStringLiteral(i)
 	}
 	ExtendedASCIIText()
+	//fmt.Println(ExtendedASCIIText())
 }
 
 func IterateOverASCIIStringLiteral(i int) {
-	h := fmt.Sprintf("%X", i)
+	hex := fmt.Sprintf("%X", i)
 	st := string(i)
 	n := int64(i)
 	bin := strconv.FormatInt(n, 2)
-	fmt.Printf("%s %s %s\n", h, st, bin)
+	fmt.Printf("%s %s %s\n", hex, st, bin)
 }
 
 func ExtendedASCIIText() {
