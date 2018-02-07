@@ -2,24 +2,22 @@ package main
 
 import (
 	"fmt"
+	"strconv"
 )
 
 func main() {
-	//IterateOverASCIIStringLiteral()
+	for i:=128; i < 256; i++ {
+		IterateOverASCIIStringLiteral(i)
+	}
 	ExtendedASCIIText()
 }
 
-func IterateOverASCIIStringLiteral() {
-	a:= ""
-	b:= "\\x"
-	for i:=128; i < 256; i++ {
-		h := fmt.Sprintf("%X", i)
-		st := string(i)
-		a = a + b + h
-		fmt.Printf("%s %s %d\n", h, st, i)
-	}
-	fmt.Println(a)
-
+func IterateOverASCIIStringLiteral(i int) {
+	h := fmt.Sprintf("%X", i)
+	st := string(i)
+	n := int64(i)
+	bin := strconv.FormatInt(n, 2)
+	fmt.Printf("%s %s %s\n", h, st, bin)
 }
 
 func ExtendedASCIIText() {
