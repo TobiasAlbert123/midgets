@@ -7,10 +7,11 @@ import (
 
 func main() {
 	for i:=128; i < 256; i++ {
-		IterateOverASCIIStringLiteral(i)
+		//IterateOverASCIIStringLiteral(i)
 	}
-	ExtendedASCIIText()
 	//fmt.Println(ExtendedASCIIText())
+	letters := [16]int{34,32,8364,247,32,190,32,100,111,108,108,97,114,32,34}
+	ExtendedASCIIText(letters)
 }
 
 func IterateOverASCIIStringLiteral(i int) {
@@ -20,18 +21,10 @@ func IterateOverASCIIStringLiteral(i int) {
 	bin := strconv.FormatInt(n, 2)
 	fmt.Printf("%s %s %s\n", hex, st, bin)
 }
-
-func ExtendedASCIIText() {
-	a := string(34)
-	b := string(32)
-	c := string(8364)
-	d := string(247)
-	e := string(190)
-	f := string(100)
-	g := string(111)
-	h := string(108)
-	i := string(97)
-	j := string(114)
-	zz := a+b+c+b+d+b+e+b+f+g+h+h+i+j+b+a
-	fmt.Printf("%s", zz)
+func ExtendedASCIIText(letters [16]int) {
+	allLetters := string("")
+	for i:= 0; i < len(letters); i++ {
+		allLetters += string(letters[i])
+	}
+	fmt.Printf("%s", allLetters)
 }
