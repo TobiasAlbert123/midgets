@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	for i:=128; i < 256; i++ {
-		//IterateOverASCIIStringLiteral(i)
+	for i:=0x80; i <= 0xFF; i++ {
+		IterateOverASCIIStringLiteral(i)
 	}
 	//fmt.Println(ExtendedASCIIText())
 	letters := [16]int{34,32,8364,247,32,190,32,100,111,108,108,97,114,32,34}
