@@ -9,6 +9,8 @@ func main() {
 	test2()
 }
 
+/*
+Inefficient method
 func test() {
 	//fmt.Println("\" € ÷ ¾ dollar \"")
 	//fmt.Printf("%q\n", strings.Split("\" € ÷ ¾ dollar \"", ""))
@@ -32,18 +34,20 @@ func test() {
 	fmt.Println(a)
 	fmt.Println(notFound)
 }
+*/
 
 func test2() {
-	splitString := []string(strings.Split(" € ÷ ¾ dollar ", ""))
+	splitString := []string(strings.Split("\" € ÷ ¾ dollar \"", ""))
 	for i:=0; i<len(splitString); i++ {
 		character := splitString[i]
 		CharToRune := []rune(character)
-		fmt.Println(CharToRune)
-		string := string(CharToRune)
-		fmt.Println(string)
-		RuneValue := 1
-		if RuneValue >= 128 && RuneValue <= 255 {
-			fmt.Println(5)
-		}
+		RuneToInt := int(CharToRune[0])
+		if RuneToInt >= 0x80 && RuneToInt <= 0xFF {
+			a := character
+			b := RuneToInt
+			fmt.Printf("%s is in extended ASCII table at position %d\n", a, b)
+		}	else {
+				fmt.Printf("%s is NOT in extended ASCII table (position %d)\n", character, RuneToInt)
+			}
 	}
 }
