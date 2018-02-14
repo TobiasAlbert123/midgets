@@ -89,7 +89,7 @@ Da deler man på 2 og skriver 1 hvis det ikke kan deles på 2.
 2:3=1       0  
 2:1=0		1  
 0			1	  
-Deretter snur man sekvensen slik 1100100 = 01100100  
+Deretter snur man sekvensen slik 0010011 = 01100100  
 Så kan man separere binarystingen  
 0110=6  
 0100=4  
