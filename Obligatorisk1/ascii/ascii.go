@@ -31,7 +31,5 @@ func ExtendedASCIIText(letters [16]int) {
 	for i:= 0; i < len(letters); i++ {
 		allLetters += string(letters[i])
 	}
-	/*testing 4C
-	iso(allLetters)
-	fmt.Printf("%s", allLetters)*/
+	fmt.Printf("%s", allLetters)
 }

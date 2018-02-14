@@ -1,13 +1,5 @@
 package algorithms
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println("")
-}
-
 // Les https://en.wikipedia.org/wiki/Bubble_sort
 func Bubble_sort_modified(list []int) {
 	n := len(list)
