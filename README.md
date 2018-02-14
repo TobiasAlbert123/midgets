@@ -2,7 +2,7 @@ Obligatorisk oppgave 1
 
 # 1   
 
-Binary|Hexa|Deci
+Binær|Hexa|Deci
    ---|---|---
 1101|	0xD|	13
 110111101010|	0xDEA|	3562
@@ -12,11 +12,11 @@ Binary|Hexa|Deci
 
 ## 1a)
 
-### Binary til hex og motsatt
+### Binær til hex og motsatt
 
 Ved å bruke denne tabellen, blir prosessen å konvertere binært til hexa og motsatt.
 
-Decimal|Hexadecimal|Binary
+Decimal|Hexadecimal|Binær
 ---|---|---
 0|0|0
 1|1|1
@@ -44,16 +44,16 @@ og konverter. 1111=F    0011=3 	0101=5 	 1010=A
 Som eksempel
 0xDEA=	 D=1101	E=1110	A=1010	=1101111010101
 
-### Binary til Decimal
+### Binær til Decimal
 
 Å gå fra binært til decimal må man utføre litt mer matteregning. 
 Først må man gange hvert av sifrene med 2 og opphøyd i plassen tallet står på. 
 Som eksempel bruker vi tallet 110010110.  
 (1\*2^8)+(1\*2^7)+(0\*2^6)+(0\*2^5)+(1\*2^4)+(0\*2^3)+(1\*2^2)+(1\*2^1)+(0\*2^0)=406
 
-### Decimal til Binary
+### Decimal til Binær
 
-For å gå fra fra decimal til binary kan man sette opp denne typen tabell
+For å gå fra fra decimal til binær kan man sette opp denne typen tabell
 Som eksempel bruker vi tallet 156. 
 
 n |128|64|32|16|8|4|2|1
@@ -79,7 +79,7 @@ D(13)E(14)A(10)=(13\*16^2)+(14\*16^1)+(10\*^16^0)
 3328+224+10=35620  
 
 ### Decimal til hex
-Når man skal konvertere fra decimal til hex må man utføre en delingsprosess med 16 eller kan man gå via binary og  
+Når man skal konvertere fra decimal til hex må man utføre en delingsprosess med 16 eller kan man gå via binær og  
 ende i hex.  
 Med eksempel bruker vi 100decimal  
 Da deler man på 2 og skriver 1 hvis det ikke kan deles på 2.  
