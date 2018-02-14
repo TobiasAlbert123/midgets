@@ -106,8 +106,8 @@ Se sorting.go og sorting_test.go i Obligatorisk1/algorithms
 ## 2c)
 
 Benchmark resultater: 
-<img src="https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/cmd_benchmark.png>
-<img src="https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/benchmark_graph.png
+<img src="https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/cmd_benchmark.png">
+<img src="https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/benchmark_graph.png">
 
 # 3
 
