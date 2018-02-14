@@ -3,13 +3,14 @@ package main
 import (
 	"fmt"
 	"strings"
+	"testing"
 )
 
-func main() {
-	iso("\" € ÷ ¾ dollar \"") //"\" € ÷ ¾ dollar \"", ""
+func TestExtendedASCIIText(t *testing.T) {
+	ISO("\" € ÷ ¾ dollar \"")
 }
 
-func iso(input string) {
+func ISO(input string) {
 	//splits input into a string array
 	splitString := []string(strings.Split(input, ""))
 	//takes each character and converts to rune, then converts to int
