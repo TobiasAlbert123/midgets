@@ -5,13 +5,13 @@ import (
 	"strconv"
 )
 
-var letters = [16]int{34,32,8364,247,32,190,32,100,111,108,108,97,114,32,34}
+//int slice representing " € ÷ ¾ dollar "
+var letters = [16]int{34,32,8364,32,247,32,190,32,100,111,108,108,97,114,32,34}
 
 func main() {
 	for i:=0x80; i <= 0xFF; i++ {
 		IterateOverASCIIStringLiteral(i)
 	}
-	//letters := [16]int{34,32,8364,247,32,190,32,100,111,108,108,97,114,32,34}
 	ExtendedASCIIText(letters)
 }
 
