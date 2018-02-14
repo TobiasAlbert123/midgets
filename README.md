@@ -10,7 +10,7 @@ Binary|Hexa|Deci
 1111111111111111|	0xFFFF|	65535
 00010001011110001010|	0x1178A|	71562
 
-# 1a)
+## 1a)
 
 # Binary til hex og motsatt
 
@@ -68,7 +68,7 @@ Som eksempel bruker vi tallet 156.
 
 ### 10011100
 
-
+## 1b)
 
 # Hex til decimal
 Å gå fra hex til decimal ganger man med 16 potens  
@@ -94,3 +94,19 @@ Så kan man separere binarystingen
 0110=6  
 0100=4  
 100deci=0x64  
+
+
+
+# 2
+
+## 2a) og 2b)
+
+Se sorting.go og sorting_test.go i Obligatorisk1/algorithms
+
+## 2c)
+
+Benchmark resultater: cmd_benchmark.png og benchmark_graph.png i Obligatorisk1-mappen
+
+# 3
+
+<img src="https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/loop_cpuandmemory.png">
