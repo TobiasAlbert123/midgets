@@ -129,3 +129,4 @@ Se [ascii.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatoris
 
 ## 4c)
 
+Se [ascii.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/ascii/iso_test.go)
