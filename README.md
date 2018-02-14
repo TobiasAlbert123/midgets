@@ -111,4 +111,15 @@ Benchmark resultater:
 
 # 3
 
+Loop: [loop.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/loop/loop.go)  
 <img src="https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/loop_cpuandmemory.png">
+
+# 4
+
+## 4a)
+
+Hverken GoLand eller Windows cmd vil printe karakterer for 0x80 til 0x9F (det blir firkanter, spørsmålstegn eller lignende). Resten av karakterene i extended ASCII blir printet ut.
+
+Se [ascii.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/ascii/ascii.go)
+
+## 4b)
