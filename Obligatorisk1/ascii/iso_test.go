@@ -8,12 +8,16 @@ import (
 
 func TestExtendedASCIIText(t *testing.T) {
 	for i := 0; i<len(letters); i++ {
-		if letters[i] < 128 {
+		if letters[i] > 0xFF {
 			t.Fail()
-			fmt.Println("ERROR, not in extended ASCII")
+			ting := string(letters[i])
+			fmt.Printf("%s is not in the extended ASCII table\n", ting)
+		} else if letters[i] < 0x80 {
+			t.Fail()
+			ting := string(letters[i])
+			fmt.Printf("%s is not in the extended ASCII table,\n but it is in the normal ASCII table\n", ting)
 		}
 	}
-	//ISO("\" € ÷ ¾ dollar \"")
 }
 
 func ISO(input string) {
