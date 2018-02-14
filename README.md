@@ -36,7 +36,7 @@ Decimal|Hexadecimal|Binary
 15|F|1111 
 
 Som eksempel å konvertere 1111001101011010 deler man det opp i 4
-og konverter. 1111=F    0011=3 	0101=5 	 1010=A
+og konverter. 1111=F    0011=3 	0101=5 	 1010=A  
 1111001101011010=F35A
 
 Å gå fra hexa til binært kan man følge den samme prosessen bare motsatt 
@@ -48,7 +48,7 @@ Som eksempel
 
 Å gå fra binært til decimal må man utføre litt mer matteregning. 
 Først må man gange hvert av sifrene med 2 og opphøyd i plassen tallet står på. 
-Som eksempel bruker vi tallet 110010110.
+Som eksempel bruker vi tallet 110010110.  
 (1\*2^8)+(1\*2^7)+(0\*2^6)+(0\*2^5)+(1\*2^4)+(0\*2^3)+(1\*2^2)+(1\*2^1)+(0\*2^0)=406
 
 # Decimal til Binary
