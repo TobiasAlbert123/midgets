@@ -56,15 +56,16 @@ Som eksempel bruker vi tallet 110010110.
 For å gå fra fra decimal til binary kan man sette opp denne typen tabell
 Som eksempel bruker vi tallet 156. 
 
-128|64|32|16|8|4|2|1
---|--|--|--|--|--|--|--|
+n |128|64|32|16|8|4|2|1
+--|--|--|--|--|--|--|--|--|
 156-128=28|1
 28<64||0
 28<32|||0
 28-16=12||||1
 12-8=4|||||1
-4-4=0||||||0
+4-4=0||||||1
 0>2|||||||0
+0>1||||||||0
 
 156 = 10011100
 
