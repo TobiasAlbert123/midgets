@@ -57,7 +57,7 @@ For å gå fra fra decimal til binary kan man sette opp denne typen tabell
 Som eksempel bruker vi tallet 156. 
 
 n |128|64|32|16|8|4|2|1
-|--|--|--|--|--|--|--|--|
+--|--|--|--|--|--|--|--|--|
 156-128=28|1
 28<64||0
 28<32|||0
