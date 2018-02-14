@@ -7,9 +7,13 @@ import (
 )
 
 func TestExtendedASCIIText(t *testing.T) {
-	//letters := [16]int{34,32,8364,247,32,190,32,100,111,108,108,97,114,32,34}
-	//ExtendedASCIIText(letters)
-	ISO("\" € ÷ ¾ dollar \"")
+	for i := 0; i<len(letters); i++ {
+		if letters[i] < 128 {
+			t.Fail()
+			fmt.Println("ERROR, not in extended ASCII")
+		}
+	}
+	//ISO("\" € ÷ ¾ dollar \"")
 }
 
 func ISO(input string) {

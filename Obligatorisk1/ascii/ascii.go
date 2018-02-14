@@ -5,11 +5,13 @@ import (
 	"strconv"
 )
 
+var letters = [16]int{34,32,8364,247,32,190,32,100,111,108,108,97,114,32,34}
+
 func main() {
 	for i:=0x80; i <= 0xFF; i++ {
 		IterateOverASCIIStringLiteral(i)
 	}
-	letters := [16]int{34,32,8364,247,32,190,32,100,111,108,108,97,114,32,34}
+	//letters := [16]int{34,32,8364,247,32,190,32,100,111,108,108,97,114,32,34}
 	ExtendedASCIIText(letters)
 }
 
@@ -31,5 +33,5 @@ func ExtendedASCIIText(letters [16]int) {
 	for i:= 0; i < len(letters); i++ {
 		allLetters += string(letters[i])
 	}
-	fmt.Printf("%s", allLetters)
+	fmt.Printf("%s\n", allLetters)
 }
