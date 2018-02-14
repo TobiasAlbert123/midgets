@@ -10,9 +10,9 @@ Binary|Hexa|Deci
 1111111111111111|	0xFFFF|	65535
 00010001011110001010|	0x1178A|	71562
 
-# 1a)
+## 1a)
 
-# Binary til hex og motsatt
+### Binary til hex og motsatt
 
 Ved å bruke denne tabellen, blir prosessen å konvertere binært til hexa og motsatt.
 
@@ -44,14 +44,14 @@ og konverter. 1111=F    0011=3 	0101=5 	 1010=A
 Som eksempel
 0xDEA=	 D=1101	E=1110	A=1010	=1101111010101
 
-# Binary til Decimal
+### Binary til Decimal
 
 Å gå fra binært til decimal må man utføre litt mer matteregning. 
 Først må man gange hvert av sifrene med 2 og opphøyd i plassen tallet står på. 
 Som eksempel bruker vi tallet 110010110.  
 (1\*2^8)+(1\*2^7)+(0\*2^6)+(0\*2^5)+(1\*2^4)+(0\*2^3)+(1\*2^2)+(1\*2^1)+(0\*2^0)=406
 
-# Decimal til Binary
+### Decimal til Binary
 
 For å gå fra fra decimal til binary kan man sette opp denne typen tabell
 Som eksempel bruker vi tallet 156. 
@@ -66,18 +66,18 @@ Som eksempel bruker vi tallet 156.
 4-4=0||||||0
 0>2|||||||0
 
-### 10011100
+156 = 10011100
 
+## 1b)
 
-
-# Hex til decimal
+### Hex til decimal
 Å gå fra hex til decimal ganger man med 16 potens  
 Vi bruker det samme eksempelet som tidligere 0xDEA.  
 D(13)E(14)A(10)=(13\*16^2)+(14\*16^1)+(10\*^16^0)  
 13\*256+14\*16+10\*1  
 3328+224+10=35620  
 
-# Decimal til hex
+### Decimal til hex
 Når man skal konvertere fra decimal til hex må man utføre en delingsprosess med 16 eller kan man gå via binary og  
 ende i hex.  
 Med eksempel bruker vi 100decimal  
@@ -94,3 +94,37 @@ Så kan man separere binarystingen
 0110=6  
 0100=4  
 100deci=0x64  
+
+
+
+# 2
+
+## 2a) og 2b)
+
+Se [sorting.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/algorithms/sorting.go) og [sorting_test.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/algorithms/sorting_test.go)
+
+## 2c)
+
+Benchmark resultater:  
+<img src="https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/cmd_benchmark.png">
+<img src="https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/benchmark_graph.png">
+
+# 3
+
+Loop: [loop.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/loop/loop.go)  
+<img src="https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/loop_cpuandmemory.png">
+
+# 4
+
+## 4a)
+
+Hverken GoLand eller Windows cmd vil printe karakterer for 0x80 til 0x9F (det blir firkanter, spørsmålstegn eller lignende). Resten av karakterene i extended ASCII blir printet ut.
+
+Se [ascii.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/ascii/ascii.go)
+
+## 4b)
+
+Se [ascii.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/ascii/ascii.go)
+
+## 4c)
+
