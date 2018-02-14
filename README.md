@@ -101,7 +101,7 @@ Så kan man separere binarystingen
 
 ## 2a) og 2b)
 
-Se sorting.go og sorting_test.go i Obligatorisk1/algorithms
+Se [sorting.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/algorithms/sorting.go] og [sorting_test.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/algorithms/sorting_test.go)
 
 ## 2c)
 
