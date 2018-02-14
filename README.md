@@ -78,4 +78,19 @@ D(13)E(14)A(10)=(13\*16^2)+(14\*16^1)+(10\*^16^0)
 3328+224+10=35620  
 
 # Decimal til hex
-
+Når man skal konvertere fra decimal til hex må man utføre en delingsprosess med 16 eller kan man gå via binary og 
+ende i hex.
+Med eksempel bruker vi 100decimal
+Da deler man på 2 og skriver 1 hvis det ikke kan deles på 2.
+2:100=50    0
+2:50=25     0
+2:25=12     1
+2:6=3       0
+2:3=1       0
+2:1=0		1
+0			1	
+Deretter snur man sekvensen slik 1100100 = 01100100
+Så kan man separere binarystingen
+0110=6
+0100=4
+100deci=0x64
