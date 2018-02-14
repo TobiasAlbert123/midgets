@@ -7,6 +7,8 @@ import (
 )
 
 func TestExtendedASCIIText(t *testing.T) {
+	//letters := [16]int{34,32,8364,247,32,190,32,100,111,108,108,97,114,32,34}
+	//ExtendedASCIIText(letters)
 	ISO("\" € ÷ ¾ dollar \"")
 }
 
