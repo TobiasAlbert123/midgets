@@ -101,7 +101,7 @@ Så kan man separere binarystingen
 
 ## 2a) og 2b)
 
-Se [sorting.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/algorithms/sorting.go] og [sorting_test.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/algorithms/sorting_test.go)
+Se [sorting.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/algorithms/sorting.go) og [sorting_test.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/algorithms/sorting_test.go)
 
 ## 2c)
 
@@ -123,3 +123,8 @@ Hverken GoLand eller Windows cmd vil printe karakterer for 0x80 til 0x9F (det bl
 Se [ascii.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/ascii/ascii.go)
 
 ## 4b)
+
+Se [ascii.go](https://github.com/TobiasAlbert123/midgets/blob/master/Obligatorisk1/ascii/ascii.go)
+
+## 4c)
+
